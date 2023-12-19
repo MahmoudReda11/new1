@@ -98,7 +98,7 @@ var rangeInput2 = document.getElementById('rangeInput2');
   var ball2 = document.getElementById('ball2');
 
   rangeInput2.addEventListener('input', function() {
-    var widthValue = rangeInput1.value + 'px';
+    var widthValue = rangeInput2.value + 'px';
 
     // تحديث عرض الكورتين بناءً على قيمة الإدخال
     ball2.style.width = widthValue;
